@@ -20,7 +20,7 @@ class Employee {
         department = sc.nextLine();
         System.out.print("Enter basic pay: ");
         basicPay = sc.nextDouble();
-        sc.close();
+        // sc.close();
         grossPay = computeGrossPay();
         netPay = computeNetPay();
     }
